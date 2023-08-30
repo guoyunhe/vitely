@@ -1,0 +1,78 @@
+{
+  "name": "vitely",
+  "version": "0.0.1",
+  "description": "All-in-one Node.js/React package development solution",
+  "keywords": [
+    "vite",
+    "package",
+    "build",
+    "lint",
+    "test",
+    "template",
+    "docuemnt",
+    "playground"
+  ],
+  "homepage": "https://github.com/guoyunhe/vitely#readme",
+  "bugs": {
+    "url": "https://github.com/guoyunhe/vitely/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/guoyunhe/vitely.git"
+  },
+  "funding": "https://github.com/sponsors/guoyunhe",
+  "license": "MIT",
+  "author": {
+    "0": "G",
+    "1": "u",
+    "2": "o",
+    "3": " ",
+    "4": "Y",
+    "5": "u",
+    "6": "n",
+    "7": "h",
+    "8": "e",
+    "name": "Guo Yunhe",
+    "email": "i@guoyunhe.me"
+  },
+  "main": "dist/index.js",
+  "module": "dist/index.mjs",
+  "typings": "dist/index.d.ts",
+  "bin": {
+    "vitely": "dist/vitely.js"
+  },
+  "files": [
+    "dist",
+    "CHANGELOG.md",
+    "LICENSE",
+    "README.md"
+  ],
+  "scripts": {
+    "build": "node-scripts build",
+    "format": "node-scripts format",
+    "lint": "node-scripts lint",
+    "test": "node-scripts test",
+    "watch": "node-scripts watch"
+  },
+  "prettier": {
+    "printWidth": 100,
+    "singleQuote": true
+  },
+  "eslintConfig": {
+    "extends": "@guoyunhe/node-scripts"
+  },
+  "jest": {
+    "preset": "@guoyunhe/node-scripts"
+  },
+  "dependencies": {
+    "commander": "^10.0.0"
+  },
+  "devDependencies": {
+    "@guoyunhe/node-scripts": "^2.2.0",
+    "@tsconfig/node20": "^1.0.1",
+    "@tsconfig/strictest": "^2.0.1",
+    "@types/jest": "^29.5.2",
+    "@types/node": "^20.3.1",
+    "typescript": "^5.1.3"
+  }
+}
